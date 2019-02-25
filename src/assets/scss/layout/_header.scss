@@ -53,7 +53,12 @@
 			line-height: 5.5rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
-
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 60%;
+			}
 			.icon {
 				&:before {
 					font-size: 2rem;
@@ -200,7 +205,6 @@
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
-
 				.icon {
 					&:before {
 						font-size: 1.75rem;
